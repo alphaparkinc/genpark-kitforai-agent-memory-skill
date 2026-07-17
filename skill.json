@@ -1,0 +1,27 @@
+{
+  "name": "genpark-kitforai-agent-memory-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - KitForAI multi-session agent memory retriever.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "memory",
+    "vector",
+    "kitforai"
+  ],
+  "inputs": {
+    "current_query": {
+      "type": "string"
+    },
+    "memory_db": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "matched_memories": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
